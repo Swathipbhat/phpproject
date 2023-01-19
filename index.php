@@ -59,6 +59,7 @@ var radioValue = $("input[name='gender']:checked").val();
 if(!radioValue)
 {
     $("#error").fadeIn().text("gender required.");
+    return false;
 }
 
 
